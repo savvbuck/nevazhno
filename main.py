@@ -124,6 +124,6 @@ class DeadlineBot:
         self.bot.infinity_polling()
 
 if __name__ == "__main__":
-    TOKEN = "7204734336:AAGpG5Ovp1-r8btiPDfZsK3fgtdu7C-uj4w"
+    TOKEN = ""
     bot = DeadlineBot(TOKEN)
     bot.run()
